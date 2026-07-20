@@ -70,4 +70,9 @@ public class StepDefinition extends BaseClass {
     public void iValidateTheLoginSuccessOrFailure() {
         LoginUser.apiResponse();
     }
+
+    @Given("I create new user")
+    public void iCreateNewUser() {
+        CreateUser.RestCreateUser();
+    }
 }

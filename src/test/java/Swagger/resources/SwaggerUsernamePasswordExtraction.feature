@@ -1,4 +1,7 @@
 Feature: Swagger Username Password Extraction
+  Background: Creating user
+    Given I create new user
+
   Scenario:
     Given I have a chrome opened with URL
     When I see the SwaggerPetStore Homepage
