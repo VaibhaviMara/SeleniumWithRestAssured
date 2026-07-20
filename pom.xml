@@ -62,7 +62,7 @@
                 <version>3.6.0-M1</version> <!-- Use the latest stable version -->
                 <configuration>
                     <includes>
-                        <include>**/${className}.java</include>
+                        <include>**/*.java</include>
                     </includes>
                 </configuration>
             </plugin>
